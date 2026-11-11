@@ -4,7 +4,7 @@ on:
   schedule:
     # Запуск кожні 30 хвилин з 07:00 до 23:00 за Київським часом
     # (взимку UTC+2 це з 05:00 до 21:00 UTC)
-    - cron: "*/30 5-21 * * *"
+    - cron: "*/120 5-21 * * *"
   workflow_dispatch:
   repository_dispatch:
     types: [check-schedule]
